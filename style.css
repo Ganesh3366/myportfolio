@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin:0;
     padding:0;
@@ -66,4 +67,74 @@ section{
 footer{
     text-align:center;
     padding:20px;
+=======
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:100px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
+
+section{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    color:black;
+    width:150px;
+    padding:20px;
+    border-radius:15px;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+>>>>>>> c1982d8036eb888402d8efedfb8bfacb3d7ab2d6
 }
